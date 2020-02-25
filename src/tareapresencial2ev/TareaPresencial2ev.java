@@ -1,0 +1,22 @@
+package tareapresencial2ev;
+
+/**
+ *
+ * @author Emilio
+ */
+public class TareaPresencial2ev {
+
+    public class CaminoBasico {
+
+        public int miMetodo(int a, int b) {
+            int resultado = 0;
+            if (a > 5 && b > 10) {
+                resultado = 55;
+            } else if (b < 10) {
+                resultado = 100;
+            }
+            return resultado;
+        }
+    }
+
+}
